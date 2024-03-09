@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  {{{titleMeta}}}
+  <meta name="description" content="Quick, composed React charts out of the box.">
+  {{!-- FormidableCharts OG --}}
+  <meta property="og:description" content="Quick, composed React charts out of the box." />
+  <meta property="og:site_name" content="FormidableCharts" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.formidable.com/open-source/formidable-charts/" />
+  {{!-- Formidable OG:image --}}
+  <meta property="og:image" content="https://formidable.com/wp-content/themes/formidable/assets/images/no-img.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{!-- Formidable favicon --}}
+  <link rel="shortcut icon" href="https://formidable.com/wp-content/themes/formidable/assets/images/fav.png" type="image/ico">
+  <base href="{{baseHref}}" />
+  {{!-- Fonts --}}
+  <link href="https://formidable.com/open-source/fonts.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet">
+
+  <script src="https://use.typekit.net/txh3mim.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  {{!-- Code Mirror --}}
+  <link href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.css" rel="stylesheet"/>
+  <link href="{{bundleCss}}" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="content">{{{content}}}</div>
+  <script async defer type="text/javascript" src="{{bundleJs}}"></script>
+</body>
+</html>
